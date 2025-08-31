@@ -85,3 +85,17 @@ h1 {
   background: #555;
 }
 
+.mode-toggle button {
+  margin-bottom: 15px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mode-toggle button:hover {
+  background: #005fa3;
+}
