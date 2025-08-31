@@ -59,3 +59,29 @@ h1 {
 .reset:hover {
   background: #555;
 }
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.reset {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.reset:hover {
+  background: #555;
+}
+
