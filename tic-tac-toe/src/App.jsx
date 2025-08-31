@@ -1,14 +1,9 @@
-import Game from './Game'
+import Game from "./Game";
 
-
-function App() {
-
-
+export default function App() {
   return (
-    <>
-      <Game/>
-    </>
-  )
+    <div className="app">
+      <Game />
+    </div>
+  );
 }
-
-export default App
